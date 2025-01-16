@@ -1,5 +1,5 @@
 ---
-title: "Programa de Prevención y Control del Dengue | 2024"
+title: "Programa de Prevención y Control del Dengue | 2025"
 format: 
   dashboard:
     nav-buttons: [twitter, github, facebook]
@@ -715,6 +715,7 @@ flexdashboard::gauge(round((sum(y_hot$n_cases)/sum(y$n_cases))*100, digits = 1),
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
                            locality = "Acapulco de Juarez",
                            cve_edo = "12",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -724,6 +725,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
                            locality = "Chilpancingo de los Bravo",
                            cve_edo = "12",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -733,6 +735,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
                            locality = "Zihuatanejo",
                            cve_edo = "12",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
@@ -743,6 +746,7 @@ deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
 deneggs::map_eggs_hotspots(betas = denmex::eggs_betas_12_guerrero,
                            locality = "Iguala de la Independencia",
                            cve_edo = "12",
+                           static_map = TRUE,
                            palette = rcartocolor::carto_pal,
                            name = "SunsetDark")
 ```
